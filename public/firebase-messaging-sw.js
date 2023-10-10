@@ -10,9 +10,9 @@ importScripts(
 );
 const config = {
   apiKey: 'AIzaSyCD9FFCULgzNQa5I-tcgLryQTDrhzoC2Ww',
-  authDomain: 'sabay-app-565c6.firebaseapp.com',
-  projectId: 'sabay-app-565c6',
-  storageBucket: 'sabay-app-565c6.appspot.com',
+  authDomain: 'test-app-565c6.firebaseapp.com',
+  projectId: 'test-app-565c6',
+  storageBucket: 'test-app-565c6.appspot.com',
   messagingSenderId: '662313829722',
   appId: '1:662313829722:web:7a98328290accb78729f63',
   measurementId: 'G-YMEJ241BXW',
