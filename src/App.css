@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root,
+.content {
+  /* height: 100% !important;
+  width: 100% !important; */
+}
+
+.center {
+  /* height: 100% !important;
+  width: 100% !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page > * {
+  margin-bottom: 16px;
+}
