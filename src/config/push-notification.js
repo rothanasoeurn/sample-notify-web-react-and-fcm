@@ -2,17 +2,17 @@ import { initializeApp } from 'firebase/app';
 import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 
 const config = {
-  apiKey: 'AIzaSyCD9FFCULgzNQa5I-tcgLryQTDrhzoC2Ww',
-  authDomain: 'test-app-565c6.firebaseapp.com',
-  projectId: 'test-app-565c6',
-  storageBucket: 'test-app-565c6.appspot.com',
-  messagingSenderId: '662313829722',
-  appId: '1:662313829722:web:7a98328290accb78729f63',
-  measurementId: 'G-YMEJ241BXW',
+  apiKey: 'AIzaSyCD9FFCULgzNQa5I-tcgLryQTDrhzotugc',
+  authDomain: 'test-my-app-565c6.firebaseapp.com',
+  projectId: 'test-my-app-565c6',
+  storageBucket: 'test-my-app-565c6.appspot.com',
+  messagingSenderId: '662313829902',
+  appId: '1:662313829902:web:7a98328290accb78729f30',
+  measurementId: 'G-YMEJ241BEN',
 };
 
 const VAPID_KEY =
-  'BJRJjBpM16BGvnxAf0LzzjC2PirWP38r20KPo6OxHNPxDsPcGIIXz2UyKt3swUnROWg9ymXfiSt3EnFRXtooW9g';
+  'BJRJjBpM16BGvnxAf0LzzjC2PirWP38r20KPo6OxHNPxDsPcGIIXz2UyKt3swUnROWg9ymXfiSt3EnFRXtooghT';
 
 const app = initializeApp(config);
 const messaging = getMessaging(app);
