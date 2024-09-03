@@ -9,13 +9,13 @@ importScripts(
   'https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js'
 );
 const config = {
-  apiKey: 'AIzaSyCD9FFCULgzNQa5I-tcgLryQTDrhzoC2Ww',
-  authDomain: 'test-app-565c6.firebaseapp.com',
-  projectId: 'test-app-565c6',
-  storageBucket: 'test-app-565c6.appspot.com',
-  messagingSenderId: '662313829722',
-  appId: '1:662313829722:web:7a98328290accb78729f63',
-  measurementId: 'G-YMEJ241BXW',
+  apiKey: 'AIzaSyCD9FFCULgzNQa5I-tcgLryQTDrhzotugc',
+  authDomain: 'test-my-app-565c6.firebaseapp.com',
+  projectId: 'test-my-app-565c6',
+  storageBucket: 'test-my-app-565c6.appspot.com',
+  messagingSenderId: '662313829902',
+  appId: '1:662313829902:web:7a98328290accb78729f30',
+  measurementId: 'G-YMEJ241BEN',
 };
 
 firebase.initializeApp(config);
